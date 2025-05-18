@@ -1,0 +1,46 @@
+@font-face {
+
+	font-family:"CascadiaMono";
+	src: url("fonts/CascadiaMono.ttf");
+	
+}
+div {
+	color:#E6EBE0;
+}
+body {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background-color:#0E0E14;
+}
+a {
+	color:#8CB9BC;
+	text-decoration: none;
+}
+a:hover {
+
+	color:#D03E2B;
+
+}
+h1.mainHeader {
+
+	font-family:"CascadiaMono";
+	font-size:70px;
+	font-weight: 300;
+	/*it make h1 in the center*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:#E6EBE0;
+}
+.top-menu {
+	padding: 50px ;
+	margin: 10px;
+	font-family:"CascadiaMono";
+	font-size:40px;
+	font-weight: 300;
+	background-color:#12131A;
+	display:flex;
+    justify-content: space-between;
+}
+
