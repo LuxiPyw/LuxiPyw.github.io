@@ -1,17 +1,31 @@
 @font-face {
 
+	/*only for code*/
 	font-family:"CascadiaMono";
 	src: url("fonts/CascadiaMono.ttf");
 	
+}
+@font-face {
+
+	font-family:"NotoSans";
+	src: url("fonts/NotoSans.ttf");
+
+}
+html {
+
+	background-color:#04040E;
 }
 div {
 	color:#E6EBE0;
 }
 body {
-	margin: 0;
+	overflow: hidden;
+	min-height:100vh;
+	max-width:800px;
+	margin: 0 auto;
 	border: 0;
 	padding: 0;
-	background-color:#0E0E14;
+	background-color:#04040E;
 }
 a {
 	color:#8CB9BC;
@@ -24,8 +38,8 @@ a:hover {
 }
 h1.mainHeader {
 
-	font-family:"CascadiaMono";
-	font-size:70px;
+	font-family:"NotoSans";
+	font-size:40px;
 	font-weight: 300;
 	/*it make h1 in the center*/
 	display: flex;
@@ -33,14 +47,32 @@ h1.mainHeader {
 	align-items: center;
 	color:#E6EBE0;
 }
-.top-menu {
-	padding: 50px ;
-	margin: 10px;
-	font-family:"CascadiaMono";
-	font-size:40px;
-	font-weight: 300;
-	background-color:#12131A;
+.topMenu {
+
 	display:flex;
-    justify-content: space-between;
+	padding: 10px ;
+	margin: 10px;
+	background-color:#12131A;
+
 }
 
+.navigation {
+	margin:0px 5px;
+	font-family:"NotoSans";
+	font-size:20px;
+	font-weight: 600;
+	display:grid;
+    justify-content: space-between;
+}
+main.mainTheme {
+
+	display:flex;
+	flex-direction:column;
+	align-items: center; 
+	justify-content: center;
+	padding:50px;
+	font-family:"NotoSans";
+	font-size:16px;
+	font-weight:400;
+
+}
