@@ -13,46 +13,37 @@
 }
 html {
 
-	background-color:#04040E;
+	min-height:100vh;
+	background-color:#000000;
 }
 div {
-	color:#E6EBE0;
+	color:#ffff;
 }
 body {
 	overflow: hidden;
-	min-height:100vh;
+	outline-color:#fff;
+	outline-width:2px;
+	outline-style:solid;
 	max-width:800px;
-	margin: 0 auto;
+	margin: 0px auto;
 	border: 0;
 	padding: 0;
-	background-color:#04040E;
+	background-color:#000000;
 }
 a {
-	color:#8CB9BC;
+	color:#fff;
 	text-decoration: none;
 }
 a:hover {
-
-	color:#D03E2B;
+	text-decoration:underline
 
 }
-h1.mainHeader {
+header {
 
-	font-family:"NotoSans";
-	font-size:40px;
-	font-weight: 300;
-	/*it make h1 in the center*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color:#E6EBE0;
-}
-.topMenu {
-
+	border-bottom:2px solid #fff;
 	display:flex;
-	padding: 10px ;
-	margin: 10px;
-	background-color:#12131A;
+	padding: 10px 20px ;
+	margin: 0px;
 
 }
 
@@ -61,18 +52,31 @@ h1.mainHeader {
 	font-family:"NotoSans";
 	font-size:20px;
 	font-weight: 600;
-	display:grid;
     justify-content: space-between;
+	display:grid;
 }
-main.mainTheme {
+
+.navigation a {
+
+	padding:0px 5px;
+
+}
+main {
+
+	margin:30px;
+	font-family:"NotoSans";
+	font-size:18px;
+	font-weight:400;
+
+}
+
+footer {
 
 	display:flex;
 	flex-direction:column;
 	align-items: center; 
 	justify-content: center;
-	padding:50px;
 	font-family:"NotoSans";
-	font-size:16px;
-	font-weight:400;
+	border-top:2px solid #fff;
 
 }
