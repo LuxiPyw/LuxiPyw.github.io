@@ -1,6 +1,13 @@
 @font-face {
 
 	/*only for code*/
+	font-family:"Renogare";
+	src: url("fonts/Renogare.otf");
+	
+}
+@font-face {
+
+	/*only for code*/
 	font-family:"CascadiaMono";
 	src: url("fonts/CascadiaMono.ttf");
 	
@@ -13,19 +20,17 @@
 }
 html {
 
+	margin:0px;
 	min-height:100vh;
 	background-color:#000000;
-}
-div {
-	color:#ffff;
 }
 body {
 	overflow: hidden;
 	outline-color:#fff;
 	outline-width:2px;
 	outline-style:solid;
-	max-width:800px;
-	margin: 0px auto;
+	max-width:1200px;
+	margin: 10px auto;
 	border: 0;
 	padding: 0;
 	background-color:#000000;
@@ -67,11 +72,13 @@ main {
 	font-family:"NotoSans";
 	font-size:18px;
 	font-weight:400;
+	color:#ffff;
 
 }
 
 footer {
 
+	color:#ffff;
 	display:flex;
 	flex-direction:column;
 	align-items: center; 
@@ -80,3 +87,18 @@ footer {
 	border-top:2px solid #fff;
 
 }
+table, th, td {
+
+	border:2px solid;
+	border-collapse: collapse;
+
+}
+table {
+	width: 100%;
+}
+th, td {
+
+	margin:0px 5px;
+
+}
+
