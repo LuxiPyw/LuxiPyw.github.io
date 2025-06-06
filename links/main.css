@@ -2,20 +2,20 @@
 
 	/*only for code*/
 	font-family:"Renogare";
-	src: url("fonts/Renogare.otf");
+	src: url("../fonts/Renogare.otf");
 	
 }
 @font-face {
 
 	/*only for code*/
 	font-family:"CascadiaMono";
-	src: url("fonts/CascadiaMono.ttf");
+	src: url("../fonts/CascadiaMono.ttf");
 	
 }
 @font-face {
 
 	font-family:"NotoSans";
-	src: url("fonts/NotoSans.ttf");
+	src: url("../fonts/NotoSans.ttf");
 
 }
 html {
@@ -36,7 +36,7 @@ body {
 	background-color:#000000;
 }
 a {
-	color:#fff;
+	color:#fd7e34;
 	text-decoration: none;
 }
 a:hover {
@@ -64,6 +64,7 @@ header {
 .navigation a {
 
 	padding:0px 5px;
+	color:#fff;
 
 }
 main {

@@ -1,0 +1,40 @@
+@font-face {
+
+	font-family:"NotoSans";
+	src: url("../fonts/NotoSans.ttf");
+
+}
+html {
+
+	margin:0px;
+	min-height:100vh;
+	background-color:#000000;
+}
+body {
+
+	overflow: hidden;
+	max-width:1200px;
+	margin: 10px auto;
+	border: 0;
+	padding: 0;
+	background-color:#000000;
+
+}
+
+main {
+
+	margin:30px;
+	text-align: center;
+	font-family:"NotoSans";
+	font-size:20px;
+	font-weight:400;
+	color:#ffff;
+}
+a {
+	color:#fd7e34;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration:underline
+
+}
