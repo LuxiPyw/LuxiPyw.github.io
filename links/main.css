@@ -23,10 +23,13 @@ html {
 	margin:0px;
 	min-height:100vh;
 	background-color:#000000;
+	scrollbar-width: none;
+
 }
 body{
 	max-width:1280px;
 	margin:20px auto;
+	-ms-overflow-style: none;
 
 }
 main {
@@ -65,14 +68,21 @@ color:#fffcab;
 }
 video.celeste_guide {
 	display: block;
-	margin: 0 auto;
+	margin: 10px auto;
 }
 div.celeste_standart_text {
 
 	margin: 0 auto;
 	text-align: center;
 }
+div.celeste_standart_text div {
+	margin:10px auto;
+
+}
 div.celeste_standart_text ul {
 	list-style-type:none;
 	padding-right:35px;
+}
+::-webkit-scrollbar {
+  display: none;
 }
