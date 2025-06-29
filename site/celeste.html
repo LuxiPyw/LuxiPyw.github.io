@@ -5,20 +5,28 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" type="image/png" href="../media/celeste/icon.png">
 		<link href="../links/main.css" type="text/css" rel="stylesheet"/>
+		<script src="../scripts/main.js" defer></script>
 	</head>
 	<body>
 		<header>
+			<div class="header_icon">
+			<a onclick="changeTheme()">
+				<img class="theme_changer_icon" src="../media/celeste/icon.png" ></img>
+			</a>
+			</div>
 		</header>
-		<main>
+		<main class="celeste">
+			
 			<h1 class="celeste_header">Movement guide in celeste</h1>
+
 			<nav class="celeste_nav">
 				<p class="tech_header">Separation into themes</p>
-				<a href="#basics">Basics tech</a>
+				<a href="#basic">Basic tech</a>
 				<a href="#advanced">Advanced tech</a>
 				<div>i don't use standart separation for techniques(sorry ;c)</div>
 			</nav>
-			<div id="basics" class="celeste_standart_text"> 
-				<p class="tech_header" style="color:#0592ab">Basics</p>
+			<div id="basic" class="celeste_standart_text"> 
+				<p class="tech_header" style="color:#0592ab">Basic</p>
 				<div>Madeline has 3 abilities for the entire game: </div>
 				<ul>
 					<li>dash</li>
@@ -26,30 +34,43 @@
 					<li>grab</li>
 				</ul> 
 				<div>and a tons of environment mechanics</div>
-
+	
 			</div>
 			<div id="advanced" class="celeste_standart_text">
 				<p class="tech_header" style="color:#0592ab">Dash techs</p>
 				<h3>Super dash</h3>
-				<div>To perform this technique you need dash -> or <- and after few frames press jump like this:</div>
-				<video class="celeste_guide" width="720" height="360" controls loop>
+				<div>To perform this technique you need dash → or ← and after few frames press jump like this:</div>
+				<video class="celeste_guide"  controls loop muted>
 					<source src="../media/celeste/super_dash.mp4" type="video/mp4" ></source>
 				</video>
 				<h3>Hyper dash</h3>
-				<div>You need dash donw --> or donw <-- like this:</div>
-				<video class="celeste_guide" width="720" height="360" controls loop>
+				<div>You need dash down-diagonal ↘ or donw ↙ like this:</div>
+				<video class="celeste_guide"  controls loop muted>
 					<source src="../media/celeste/hyper_dash.mp4" type="video/mp4" ></source>
 				</video>
 				<div>hyper more horizontal and less vertical then super dash</div>
-				<video class="celeste_guide" width="720" height="360" controls loop>
+				<div>Hyper and super has extended version. To do extended version you should stay on ground after dashing for few frames to restore dash</div>
+				<video class="celeste_guide"  controls loop muted>
 					<source src="../media/celeste/Extended_super_dash.mp4" type="video/mp4" ></source>
 				</video>
-				<video class="celeste_guide" width="720" height="360" controls loop>
+				<video class="celeste_guide"  controls loop muted>
 					<source src="../media/celeste/Extended_hyper_dash.mp4" type="video/mp4" ></source>
 				</video>
-				<div>Hyper and super has extended version. To do extended version you should stay on ground after dashing for few frames to restore dash</div>
-
-
+				<h3>Wallbounce</h3>
+				<video class="celeste_guide"  controls loop muted>
+					<source src	="../media/celeste/four_pixel_wallbounce.mp4" type="video/mp4" ></source>
+				</video>
+				<div>To perform this technique you should dash up ↑ near (max distance to perform this tech is 5 pixels from the wall(with madeline hitbox)) the wall and press jump while you dashing</div>
+				<video class="celeste_guide"  controls loop muted>
+					<source src	="../media/celeste/five_pixel_wallbounce.mp4" type="video/mp4" ></source>
+				</video>
+				<div>Where madeline can't do wallbounce because she (i know what is she is not she is he, because mady is trans but i fuck all this fucking bullshit)at a distance of 6 pixels from the wall </div>
+				<h3>Wave dash</h3>
+				<h3>Ultra dash</h3>
+				<h3>Corner boost</h3>
+				<h3>Corner jump</h3>
+				<h3></h3>
+				
 
 			</div>
 		</main>

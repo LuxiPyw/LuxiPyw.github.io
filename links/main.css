@@ -29,17 +29,28 @@ html {
 body{
 	max-width:1280px;
 	margin:20px auto;
+	color:#fff;
+	background-color:#000000;
 	-ms-overflow-style: none;
 
 }
+body.white_theme{
+	background-color:#ffc9ce;
+	color:#000;
+	
+}
 main {
+	
+}
+main.celeste {
 	font-family:Renogare;
 
 
 
 }
-a {
-
+div.header_icon	 {
+	text-align: center;
+	
 
 }
 h1.celeste_header {
@@ -69,6 +80,10 @@ color:#fffcab;
 video.celeste_guide {
 	display: block;
 	margin: 10px auto;
+	width:720px;
+	height:360px;
+	max-width:100%;
+	max-height:100%;
 }
 div.celeste_standart_text {
 
@@ -82,6 +97,10 @@ div.celeste_standart_text div {
 div.celeste_standart_text ul {
 	list-style-type:none;
 	padding-right:35px;
+}
+img.theme_changer_icon {
+	width:25px;
+	height:25px;
 }
 ::-webkit-scrollbar {
   display: none;
